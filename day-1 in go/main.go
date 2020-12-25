@@ -15,7 +15,7 @@ func check(e error) {
 }
 
 func main() {
-	path, _ := filepath.Abs("day-1/input")
+	path, _ := filepath.Abs("input")
 	input, err := ioutil.ReadFile(path)
 	check(err)
 	lines := strings.Split(string(input), "\n")
